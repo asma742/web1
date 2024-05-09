@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+
+    position: relative;
+}
+
+navbar {
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color:#ffd279 ;
+
+}
+
+.nav {
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+    padding-right: 2vw;
+
+
+}
+
+navbar h2 {
+    font-size: 2vw;
+    font-weight: 700;
+    color: black;
+
+}
+
+navbar h4 {
+    font-size: 1vw;
+}
+
+navbar i {
+    font-size: 1.2vw;
+    font-weight: 800;
+    display: none;
+}
+
+
+
+.content {
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: #ffd279;
+    display: flex;
+    position: relative;
+    
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+
+    padding: 30px;
+    margin: 30px;
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+}
+.btngetstarted{
+    margin: 10px;
+    padding: 10px;
+    background-color:#FFA500
+    ;
+    color: white;
+}
+.btncontactus{
+    background-color: #FFA500;
+    color: white;
+}
+
+
+
+
+@media (max-width:600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    navbar {
+        background-color: #ffd279;
+        color: beige;
+        padding: 0 5vw;
+    }
+
+    navbar h2 {
+        font-size: 6vw;
+    }
+
+    navbar h4 {
+        font-size: 4vw;
+        display: none;
+    }
+
+    navbar i {
+        font-size: 8vw;
+        padding-right: 2vw;
+
+        display: block;
+    }
+    .content {
+        width: 100%;
+        height: calc(100% - 100px);
+        background-color: #ffd279;
+        display: flex;
+        
+        flex-wrap: wrap;
+        
+        
+    }
+    .content h2 p {
+        padding: 10px;
+
+    }
+    img{
+padding-right: 10px;
+
+    }
+
+}
